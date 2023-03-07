@@ -16,6 +16,15 @@ public class DmvSimulator
             System.out.println("Current call: " + currentCallNumber);
         }
 
-        System.out.println("You do not have the required paperwork. We can't do anything without your paperwork!");
+        int n = (int)(100*Math.random());
+
+        if(n <= 99)
+        {
+            System.out.println("You do not have the required paperwork. We can't do anything without your paperwork!");
+        }
+        else
+        {
+            System.out.println("You have the required paperwork. You are all set, thank you!");
+        }
     }
 }
