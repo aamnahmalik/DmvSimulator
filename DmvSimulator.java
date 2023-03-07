@@ -16,6 +16,7 @@ public class DmvSimulator
             System.out.println("Current call: " + currentCallNumber);
         }
 
+        
         System.out.println("I'm sorry, you do not have the required paperwork.");
     }
 }
